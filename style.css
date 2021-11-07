@@ -194,6 +194,7 @@ input[type=text], [type=email] {
     padding-left: 10px;
     letter-spacing: .15rem;
     margin: 10px 0;
+    outline: none;
 }
 
 .newsletter p {
