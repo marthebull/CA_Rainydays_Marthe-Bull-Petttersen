@@ -27,7 +27,7 @@ h1, h2 , h3, a {
 h1 {
     font-weight: 700;
     font-size: 2.3rem;
-    letter-spacing: .4rem;
+    letter-spacing: .5rem;
 }
 
 h2 {
@@ -113,6 +113,7 @@ nav {
     background-position: top center;
     background-size: cover;
     height: 90vh;
+    box-shadow: none;
 }
 
 .header-home > *, .header-home a {
@@ -120,17 +121,24 @@ nav {
 }
 
 .welcome {
-    margin: 300px auto 0;
+    position: absolute;
+    margin-right: auto;
+    margin-left: auto;
+    left: 20px;
+    right: 20px;
+    bottom: 100px;
+    text-align: center;
+    max-width: 260px;
 }
 
 .welcome > h1, h2 {
     padding: 10px 0;
-    text-align: center;
 }
 
 .yellow { 
     background-color: #FFC01E;
     color: black;
+    margin-top: 50px;
 }
 
 
