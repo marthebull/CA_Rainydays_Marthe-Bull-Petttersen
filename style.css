@@ -112,7 +112,7 @@ nav {
     background-image: url(images/cloudy-mountain-overlay.jpg);
     background-position: top center;
     background-size: cover;
-    height: 80vh;
+    height: 90vh;
 }
 
 .header-home > *, .header-home a {
@@ -120,7 +120,7 @@ nav {
 }
 
 .welcome {
-    margin: 350px auto 0;
+    margin: 300px auto 0;
 }
 
 .welcome > h1, h2 {
