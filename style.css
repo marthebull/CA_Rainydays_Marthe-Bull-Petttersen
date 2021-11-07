@@ -112,7 +112,7 @@ nav {
     background-image: url(images/cloudy-mountain-overlay.jpg);
     background-position: top center;
     background-size: cover;
-    height: 90vh;
+    height: 700px;
     box-shadow: none;
 }
 
@@ -146,10 +146,12 @@ nav {
 /* Page content ---------------- */
 main {
     max-width: 1000px;
+    min-width: 300px;
     margin: 0 auto;
     padding: 20px;
     display: grid;
     grid-auto-flow: row;
+    background-color: blanchedalmond;
 }
 
 
