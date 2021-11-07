@@ -47,7 +47,11 @@ a {
 }
 
 .cta {
+    font-family: 'Poppins', Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 0.8rem;
+    letter-spacing: .15rem;
     font-weight: 500;
+    display: block;
     padding: 20px;
     width: 100%;
     margin: 20px auto;
@@ -145,7 +149,7 @@ nav {
     padding: 10px 0;
 }
 
-.yellow { 
+a.yellow { 
     background-color: #FFC01E;
     color: black;
     margin-top: 50px;
@@ -157,7 +161,7 @@ nav {
 main {
     max-width: 1000px;
     min-width: 300px;
-    margin: 0 auto;
+    margin: 20px auto;
     padding: 20px;
     display: grid;
     grid-auto-flow: row;
@@ -218,7 +222,7 @@ input[type=text], [type=email] {
 
 #copyright {
     text-align: center;
-    font-size: .6rem;
+    font-size: .8rem;
 }
 
 
