@@ -82,6 +82,11 @@ header {
     flex-direction: column;
 }
 
+.nav-bar {
+    display: flex;
+    flex-direction: column;
+}
+
 .logo {
     margin: 0 auto;
     width: 100px;
@@ -91,17 +96,27 @@ header {
 .text-logo {
     font-size: 1.3rem;
     margin: 0 auto;
+    line-height: fit-content;
 }
 
 #hamburger-menu {
     display: none;
 }
 
+.fa-bars, .fa-shopping-bag {
+    font-size: 1.4rem;
+}
+
 .fa-bars {
     position: absolute;
     top: 20px;
+    left: 20px;
+}
+
+.fa-shopping-bag {
+    position: absolute;
+    top: 20px;
     right: 20px;
-    font-size: 1.4rem;
 }
 
 nav {
@@ -169,7 +184,6 @@ main {
     margin: 0 auto;
     display: grid;
     grid-auto-flow: row;
-    background-color: blanchedalmond;
 }
 
 .crumb a, li.crumb, a.crumb {
