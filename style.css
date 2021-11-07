@@ -65,6 +65,11 @@ ul {
     list-style: none;
 }
 
+ol {
+    list-style: none;
+    padding-left: 0;
+}
+
 
 /* Header ---------------------- */
 header {
@@ -161,11 +166,27 @@ a.yellow {
 main {
     max-width: 1000px;
     min-width: 300px;
-    margin: 20px auto;
-    padding: 20px;
+    margin: 0 auto;
     display: grid;
     grid-auto-flow: row;
     background-color: blanchedalmond;
+}
+
+.crumb a, li.crumb, a.crumb {
+    font-family: 'Poppins', Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 0.7rem;
+    letter-spacing: .15rem;
+    display: inline-block;
+    color: grey;
+}
+
+
+li.crumb a::after {
+    content: ' / ';
+}
+
+.fa-chevron-left {
+    padding-right: 20px;
 }
 
 
@@ -191,7 +212,7 @@ footer {
 }
 
 input[type=text], [type=email] {
-    font: .6rem 'Poppins', sans-serif;
+    font: .7rem 'Poppins', sans-serif;
     width: 100%;
     border: 1px solid lightgray;
     height: 40px;
