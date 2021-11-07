@@ -93,7 +93,7 @@ nav {
     height: 80vh;
 }
 
-.header-home > *{
+.header-home > *, .header-home a {
     color: white;
 }
 
