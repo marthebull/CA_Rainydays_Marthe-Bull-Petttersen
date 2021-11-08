@@ -329,8 +329,12 @@ li.crumb a::after {
     height: 200px;
 }
 
+
 /* Success page */
 
+.success-page .cta {
+    margin: 100px 0;
+}
 
 
 /* Footer ----------------------*/
