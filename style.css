@@ -329,6 +329,9 @@ li.crumb a::after {
     height: 200px;
 }
 
+textarea {
+    vertical-align: top;
+}
 
 /* Success page */
 
