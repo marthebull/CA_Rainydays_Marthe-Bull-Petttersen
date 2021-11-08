@@ -179,11 +179,11 @@ a.yellow {
 
 /* Page content ---------------- */
 main {
-    max-width: 1000px;
-    min-width: 300px;
+    width: 100%;
     margin: 0 auto;
     display: grid;
     grid-auto-flow: row;
+    padding: 20px;
 }
 
 .crumb a, li.crumb, a.crumb {
@@ -258,6 +258,10 @@ input[type=text], [type=email] {
 #copyright {
     text-align: center;
     font-size: .8rem;
+}
+
+@media screen and (min-width: 720px) {
+
 }
 
 
