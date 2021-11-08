@@ -329,9 +329,6 @@ li.crumb a::after {
     height: 200px;
 }
 
-textarea {
-    vertical-align: top;
-}
 
 /* Success page */
 
@@ -361,7 +358,7 @@ footer {
     padding-bottom: 60px;
 }
 
-input[type=text], [type=email] {
+input[type=text], [type=email], textarea {
     font: .7rem 'Poppins', sans-serif;
     width: 100%;
     border: 1px solid lightgray;
@@ -370,6 +367,7 @@ input[type=text], [type=email] {
     letter-spacing: .15rem;
     margin: 10px 0;
     outline: none;
+    resize: none;
 }
 
 .newsletter p {
