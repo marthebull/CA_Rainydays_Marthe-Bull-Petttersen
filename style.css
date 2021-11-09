@@ -356,6 +356,27 @@ main {
     text-align: center;
 }
 
+.products {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px 20px;
+    padding-bottom: 40px;
+}
+
+.products a {
+    display: flex;
+    flex-direction: column;
+}
+
+.products a img {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.products h2 {
+    font-size: 1rem;
+}
+
 p.sale-price {
     color: sienna;
     display: inline-block;
@@ -484,6 +505,10 @@ p.sale-price {
     padding: 5px 0;
 }
 
+h2.intro {
+    padding: 30px 0;
+}
+
 /* Checkout page*/
 
 /* Summary page*/
@@ -493,28 +518,6 @@ p.sale-price {
 .success-page .cta {
     margin: 100px 0;
 }
-
-.products {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 40px 20px;
-    padding-bottom: 40px;
-}
-
-.products a {
-    display: flex;
-    flex-direction: column;
-}
-
-.products a img {
-    width: 100%;
-    margin-bottom: 20px;
-}
-
-.products h2 {
-    font-size: 1rem;
-}
-
 
 
 /* Footer ----------------------*/
