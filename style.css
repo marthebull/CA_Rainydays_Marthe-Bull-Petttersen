@@ -66,6 +66,7 @@ a {
 .cta:hover {
     background-color: #FFC01E;
     color: black;
+    font-size: 1.2em;
 }
 
 ul {
