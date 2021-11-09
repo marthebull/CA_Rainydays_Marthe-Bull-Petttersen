@@ -214,6 +214,7 @@ a.yellow {
 main {
     max-width: 600px;
     min-width: 300px;
+    width: 100%;
     margin: 0 auto;
     padding: 20px;
 }
@@ -514,6 +515,66 @@ h2.intro {
     padding: 30px 0;
 }
 
+/* Cart page*/
+
+.cart-page {
+    background-color: #FAFAFA;
+}
+
+.cart {
+    display: flex;
+    flex-direction: row;
+    height: 200px;
+    padding: 20px;
+    gap: 20px;
+}
+
+.white-box > p {
+    display: inline-block;
+    padding-bottom: 20px;
+}
+
+
+.cart div {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.fa-trash-alt {
+    font-size: 1.2rem;
+}
+
+.white-box {
+    background-color: white;
+    border: .5px solid lightgrey;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.cart img {
+    width: 100px;
+    height: auto;
+}
+
+hr {
+    border: 0.5px solid lightgray;
+    margin: 20px 0;
+}
+
+.price {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+
+
+
+
 /* Checkout page*/
 
 /* Summary page*/
@@ -529,10 +590,11 @@ h2.intro {
 footer {
     background-color:#f2f2f2;
     padding: 40px;
+    margin-top: 30PX;
 }
 
 .footer-container {
-    max-width: 600px;
+    max-width: 500px;
     min-width: 300px;
     margin: 20px auto;
     display: flex;
