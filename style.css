@@ -517,7 +517,7 @@ h2.intro {
 
 /* Cart page*/
 
-.cart-page {
+.grey-page {
     background-color: #FAFAFA;
 }
 
@@ -533,7 +533,6 @@ h2.intro {
     display: inline-block;
     padding-bottom: 20px;
 }
-
 
 .cart div {
     height: 155px;
@@ -572,11 +571,39 @@ hr {
     padding-top: 20px;
 }
 
-
-
-
-
 /* Checkout page*/
+
+.delivery {
+    margin: 40px 0;
+    position: relative;
+}
+
+.fa-box {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 1.4rem;
+}
+
+.card {
+    position: relative;
+}
+
+
+.fa-cc-visa {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 1.4rem;
+}
+
+.fa-cc-mastercard {
+    position: absolute;
+    top: 20px;
+    right: 50px;
+    font-size: 1.4rem;
+} 
+
 
 /* Summary page*/
 
@@ -609,16 +636,25 @@ footer {
     padding-bottom: 60px;
 }
 
-input[type=text], [type=email], textarea {
+input[type=text], [type=email], [type=tel], select, textarea {
     font: .7rem 'Poppins', sans-serif;
     width: 100%;
     border: 1px solid lightgray;
     height: 40px;
     padding-left: 10px;
-    letter-spacing: .15rem;
-    margin: 10px 0;
+    letter-spacing: .1rem;
+    margin: 0 0 20px 0;
     outline: none;
     resize: none;
+}
+
+form label {
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+select {
+    background-position: 95%;
 }
 
 .newsletter p {

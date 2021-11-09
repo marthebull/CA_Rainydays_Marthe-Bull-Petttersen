@@ -8,7 +8,7 @@
         <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Roboto+Condensed:wght@400;700&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
     </head>
-    <body>
+    <body class="grey-page">
         <header>
             <section class="nav-bar">
                 <input type="checkbox" id="hamburger-menu">
@@ -32,12 +32,84 @@
                 <a class="crumb" href="../products/products.html"><i class="fas fa-chevron-left"></i>BACK TO SHOPPING</a></li>
             </section>
         </header>
-        <main>
+        <main class="main-flex">
             <h1>CHECKOUT</h1>
-            <section>
-                <p><strong>YOUR ORDER (2 ITEMS)</strong></p>
-
+            <section class="white-box">
+                <p><strong>CUSTOMER INFORMATION</strong></p>
+                <form action="index.html" method="GET" id="cust-info">
+                    <ul>
+                        <li>
+                            <label for="first-name">First name *</label>
+                            <input type="text" id="first-name" name="first_name">
+                        </li>
+                        <li>
+                            <label for="last-name">Last name *</label>
+                            <input type="text" id="last-name" name="last_name">
+                        </li>
+                        <li>
+                            <label for="email">Email address *</label>
+                            <input type="email" id="email" name="user_email">
+                        </li>
+                        <li>
+                            <label for="street">Street *</label>
+                            <input type="text" id="street" name="street">
+                        </li>
+                        <li>
+                            <label for="postal-code">Postal code *</label>
+                            <input type="text" id="postal-code" name="postal-code">
+                        </li>
+                        <li>
+                            <label for="city">City *</label>
+                            <input type="text" id="city" name="city">
+                        </li>
+                        <li>
+                            <label for="country">Country *</label>
+                            <input type="text" id="country" name="country">
+                        </li>
+                        <li>
+                            <label for="phone">Phone *</label>
+                            <input type="tel" id="phone" name="phone">
+                        </li>
+                    </ul>
+                </form>
             </section>
+            <section class="white-box delivery">
+                <p><strong>DELIVERY</strong></p>
+                <i class="fas fa-box"></i>
+                <p>Delivery within 3-4 business days</p>
+                <p>Pick a delivery method</p>
+                <select name="pick-up" id="pick-up" form="cust-info">
+                    <option value="1">Standard home delivery FREE</option>
+                    <option value="2">To nearest pickup-point FREE</option>
+                    <option value="3">Express delivery 89 kr</option>
+                </select>
+            </section>
+            <section class="white-box card">
+                <p><strong>CARD INFORMATION</strong></p>
+                <i class="fab fa-cc-visa"></i>
+                <i class="fab fa-cc-mastercard"></i>
+                <form action="index.html" method="GET" id="card-info">
+                    <ul>
+                        <li>
+                            <label for="card-number">Card number *</label>
+                            <input type="text" id="card-number" name="card-number">
+                        </li>
+                        <li>
+                            <label for="expiry-date">Expiry date *</label>
+                            <input type="text" id="expiry-date" name="expiry-date">
+                        </li>
+                        <li>
+                            <label for="cvc">CVC / CVV *</label>
+                            <input type="text" id="cvc" name="cvc">
+                        </li>
+                        <li>
+                            <label for="card-holder">Card holder name *</label>
+                            <input type="text" id="card-holder" name="card-holder">
+                        </li>
+                    </ul>
+                </form>
+            </section>
+            <a class="cta" href="summary.html">SUMMARY</a>
         </main>
         <footer>
             <section class="footer-container">
