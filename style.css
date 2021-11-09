@@ -414,8 +414,6 @@ p.sale-price {
 
 .orange {
     background-color: rgb(255, 187, 0);
-    outline: .5px solid black;
-    outline-offset: 2px;
 }
 
 .blue {
@@ -432,6 +430,11 @@ p.sale-price {
 
 .green {
     background-color: rgb(83, 95, 54);
+}
+
+.color-pick:active {
+    outline: .5px solid black;
+    outline-offset: 2px;
 }
 
 .sizes {
@@ -461,7 +464,6 @@ p.sale-price {
     color: white;
 }
 
-
 .add-to {
     margin-bottom: 10px;
 }
@@ -481,10 +483,6 @@ p.sale-price {
 .product-info p {
     padding: 5px 0;
 }
-
-
-
-
 
 /* Success page */
 
