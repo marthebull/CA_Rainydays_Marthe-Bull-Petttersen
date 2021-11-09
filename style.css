@@ -351,6 +351,17 @@ main {
     text-align: center;
 }
 
+p.sale-price {
+    color: sienna;
+    display: inline-block;
+}
+
+.old-price {
+    text-decoration: line-through;
+    display: inline-block;
+    color: black;
+}
+
 /* Success page */
 
 .success-page .cta {
