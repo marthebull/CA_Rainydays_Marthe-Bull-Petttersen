@@ -47,6 +47,10 @@ a {
     color: black;
 }
 
+strong {
+    font-weight: 500;
+}
+
 .cta {
     font-family: 'Poppins', Verdana, Geneva, Tahoma, sans-serif;
     font-size: 0.8rem;
