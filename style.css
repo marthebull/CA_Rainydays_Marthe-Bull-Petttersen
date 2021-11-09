@@ -342,13 +342,42 @@ main {
 
 /* Products page*/
 
-
+.intro {
+    display: flex;
+    flex-direction: column;
+    max-width: 450px;
+    margin: 0 auto;
+    padding-bottom: 50px;
+    text-align: center;
+}
 
 /* Success page */
 
 .success-page .cta {
     margin: 100px 0;
 }
+
+.products {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px 20px;
+    padding-bottom: 40px;
+}
+
+.products a {
+    display: flex;
+    flex-direction: column;
+}
+
+.products a img {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.products h2 {
+    font-size: 1rem;
+}
+
 
 
 /* Footer ----------------------*/
