@@ -557,6 +557,7 @@ h2.intro {
 .cart img {
     width: 100px;
     height: auto;
+    align-self: center;
 }
 
 hr {
