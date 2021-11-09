@@ -63,6 +63,10 @@ a {
     text-align: center;
 }
 
+.cta:hover {
+    background-color: #FFC01E;
+}
+
 ul {
     list-style: none;
 }
