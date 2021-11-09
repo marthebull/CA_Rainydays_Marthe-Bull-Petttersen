@@ -362,6 +362,33 @@ p.sale-price {
     color: black;
 }
 
+/* Product spesific page*/
+
+.gallery {
+    display: grid;
+    grid-template-columns: 1fr 3.5fr;
+    gap: 20px;
+}
+
+.gallery img {
+    display: block;
+    width: 100%;
+}
+
+.small-photos {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-between;
+
+}
+
+
+
+
+
+
+
 /* Success page */
 
 .success-page .cta {
