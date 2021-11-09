@@ -74,17 +74,19 @@ ol {
 
 
 /* Header ---------------------- */
+
 header {
-    background-color: white;
-    padding: 20px;
-    min-height: 65px;
-    position: relative;
-    box-shadow: 0px 2px 5px lightgray;
-    display: flex;
-    flex-direction: column;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 .nav-bar {
+    background-color: white;
+    min-height: 65px;
+    position: relative;
+    padding: 20px;
+    box-shadow: 0px 2px 5px lightgray;
     display: flex;
     flex-direction: column;
 }
@@ -143,6 +145,26 @@ nav {
     font-size: 1rem;
 }
 
+.crumbs {
+    padding: 20px;
+}
+.crumb a, li.crumb, a.crumb {
+    font-family: 'Poppins', Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 0.7rem;
+    letter-spacing: .15rem;
+    display: inline-block;
+    color: grey;
+}
+
+
+li.crumb a::after {
+    content: ' / ';
+}
+
+.fa-chevron-left {
+    padding-right: 20px;
+}
+
 /* Header home page*/
 .header-home {
     background-image: url(images/cloudy-mountain-overlay.jpg);
@@ -150,6 +172,10 @@ nav {
     background-size: cover;
     height: 700px;
     box-shadow: none;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding: 20px;
 }
 
 .header-home > *, .header-home a {
@@ -181,23 +207,6 @@ main {
     min-width: 300px;
     margin: 0 auto;
     padding: 20px;
-}
-
-.crumb a, li.crumb, a.crumb {
-    font-family: 'Poppins', Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 0.7rem;
-    letter-spacing: .15rem;
-    display: inline-block;
-    color: grey;
-}
-
-
-li.crumb a::after {
-    content: ' / ';
-}
-
-.fa-chevron-left {
-    padding-right: 20px;
 }
 
 .main-flex {
@@ -305,7 +314,7 @@ li.crumb a::after {
 
 /* About page */
 
-.about-page h1 {
+.about-page h1, .about-page .cta {
     margin: 50px auto;
 }
 
@@ -323,11 +332,16 @@ li.crumb a::after {
 
 .contact-page li {
     margin: 10px auto;
+    width: 100%;
 }
 
 #message {
     height: 200px;
 }
+
+
+/* Products page*/
+
 
 
 /* Success page */
@@ -344,7 +358,7 @@ footer {
 }
 
 .footer-container {
-    max-width: 400px;
+    max-width: 600px;
     min-width: 300px;
     margin: 20px auto;
     display: flex;
@@ -397,12 +411,4 @@ input[type=text], [type=email], textarea {
 @media screen and (min-width: 720px) {
 
 }
-
-
-
-
-
-
-
-
 
