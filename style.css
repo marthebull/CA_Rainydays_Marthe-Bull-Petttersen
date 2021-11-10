@@ -635,30 +635,24 @@ hr {
     position: relative;
 }
 
-.fa-box {
-    position: absolute;
-    top: 20px;
-    right: 20px;
-    font-size: 1.4rem;
-}
-
 .card {
     position: relative;
 }
 
+.fa-box {
+    right: 20px;
+}
 
-.fa-cc-visa {
+.fa-cc-visa, .fa-cc-mastercard, .fa-box {
     position: absolute;
     top: 20px;
     right: 20px;
     font-size: 1.4rem;
+    color: lightgray;
 }
 
 .fa-cc-mastercard {
-    position: absolute;
-    top: 20px;
     right: 50px;
-    font-size: 1.4rem;
 } 
 
 
