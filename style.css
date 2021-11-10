@@ -81,6 +81,35 @@ ol {
     padding-left: 0;
 }
 
+/* Forms */
+
+input[type=text], [type=email], [type=tel], [type=number], [type=search], select, textarea {
+    font: .7rem 'Poppins', sans-serif;
+    width: 100%;
+    border: 1px solid lightgray;
+    height: 40px;
+    padding-left: 10px;
+    letter-spacing: .1rem;
+    margin: 0 0 20px 0;
+    outline: none;
+    resize: none;
+}
+
+#quantity {
+    width: 50%;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+form label {
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+select {
+    background-position: 95%;
+}
 
 /* Header ---------------------- */
 
@@ -112,11 +141,11 @@ header {
     line-height: 24px;
 }
 
-#hamburger-menu {
+#hamburger-menu, #search {
     display: none;
 }
 
-.fa-bars, .fa-shopping-bag {
+.fa-bars, .fa-shopping-bag, .fa-search {
     font-size: 1.4rem;
 }
 
@@ -124,6 +153,12 @@ header {
     position: absolute;
     top: 20px;
     left: 20px;
+}
+
+.fa-search {
+    position: absolute;
+    top: 20px;
+    right: 60px;
 }
 
 .fa-shopping-bag {
@@ -154,8 +189,20 @@ nav {
     font-size: 1rem;
 }
 
+.search-field {
+    display: none;
+}
+
+#search:checked ~ .search-field {
+    display: block;
+    margin-top: 30px;
+}
+
+
+
 .crumbs {
     padding: 20px;
+    position: relative;
 }
 .crumb a, li.crumb, a.crumb {
     font-family: 'Poppins', Verdana, Geneva, Tahoma, sans-serif;
@@ -164,7 +211,6 @@ nav {
     display: inline-block;
     color: grey;
 }
-
 
 li.crumb a::after {
     content: ' / ';
@@ -612,8 +658,6 @@ hr {
 } 
 
 
-/* Summary page*/
-
 /* Success page */
 
 .success-page .cta {
@@ -647,33 +691,7 @@ footer {
     padding-bottom: 60px;
 }
 
-input[type=text], [type=email], [type=tel], [type=number], select, textarea {
-    font: .7rem 'Poppins', sans-serif;
-    width: 100%;
-    border: 1px solid lightgray;
-    height: 40px;
-    padding-left: 10px;
-    letter-spacing: .1rem;
-    margin: 0 0 20px 0;
-    outline: none;
-    resize: none;
-}
 
-#quantity {
-    width: 50%;
-    text-align: center;
-    margin: 0;
-    padding: 0;
-}
-
-form label {
-    display: inline-block;
-    margin-bottom: 5px;
-}
-
-select {
-    background-position: 95%;
-}
 
 .newsletter p {
     padding-bottom: 20px;
