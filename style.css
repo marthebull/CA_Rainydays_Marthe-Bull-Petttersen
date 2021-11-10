@@ -167,6 +167,15 @@ header {
     right: 20px;
 }
 
+.bag-qty {
+    position: relative;
+    bottom: 12px;
+    left: 7px;
+    color: white;
+    font-family: 'poppins';
+    font-size: .6rem;
+}
+
 nav {
     display: none;
 }
