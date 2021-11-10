@@ -96,7 +96,7 @@ input[type=text], [type=email], [type=tel], [type=number], [type=search], select
 }
 
 #quantity {
-    width: 50%;
+    width: 100px;
     text-align: center;
     margin: 0;
     padding: 0;
@@ -105,10 +105,6 @@ input[type=text], [type=email], [type=tel], [type=number], [type=search], select
 form label {
     display: inline-block;
     margin-bottom: 5px;
-}
-
-select {
-    background-position: 95%;
 }
 
 /* Header ---------------------- */
@@ -469,14 +465,6 @@ p.sale-price {
 }
 
 
-/*
-.small-photos {
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-    justify-content: space-between;
-} */
-
 .product-choices {
     display: flex;
     flex-direction: column;
@@ -611,7 +599,7 @@ h2.intro {
     position: absolute;
     bottom: 0;
     right: 0;
-    color: gray;
+    color: lightgray;
 }
 
 .white-box {
