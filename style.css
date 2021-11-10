@@ -449,8 +449,6 @@ p.sale-price {
 
 .black {
     background-color: rgb(22, 22, 22);
-    outline: .5px solid black;
-    outline-offset: 2px;
 }
 
 .beige {
@@ -459,6 +457,11 @@ p.sale-price {
 
 .green {
     background-color: rgb(83, 95, 54);
+}
+
+.c-pick {
+    outline: .5px solid black;
+    outline-offset: 2px;
 }
 
 
@@ -535,12 +538,18 @@ h2.intro {
 .cart div {
     height: 155px;
     display: flex;
+    width: 100%;
     flex-direction: column;
     justify-content: space-between;
+    position: relative
 }
 
 .fa-trash-alt {
     font-size: 1.2rem;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    color: gray;
 }
 
 .white-box {
@@ -558,7 +567,7 @@ h2.intro {
 }
 
 hr {
-    border: 0.5px solid lightgray;
+    border: 1px solid lightgray;
     margin: 20px 0;
 }
 
@@ -611,6 +620,10 @@ hr {
     margin: 100px 0;
 }
 
+.cust-sum {
+    padding-bottom: 30px;
+}
+
 
 /* Footer ----------------------*/
 footer {
@@ -634,7 +647,7 @@ footer {
     padding-bottom: 60px;
 }
 
-input[type=text], [type=email], [type=tel], select, textarea {
+input[type=text], [type=email], [type=tel], [type=number], select, textarea {
     font: .7rem 'Poppins', sans-serif;
     width: 100%;
     border: 1px solid lightgray;
@@ -644,6 +657,13 @@ input[type=text], [type=email], [type=tel], select, textarea {
     margin: 0 0 20px 0;
     outline: none;
     resize: none;
+}
+
+#quantity {
+    width: 50%;
+    text-align: center;
+    margin: 0;
+    padding: 0;
 }
 
 form label {
