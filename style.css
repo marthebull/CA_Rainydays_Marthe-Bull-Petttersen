@@ -794,9 +794,12 @@ footer {
     
     .categories {
         flex-direction: row;
-        gap: 20px;
     }
 
-    
+    .categories div {
+        padding: 0 10px;
+    }
+
+
 }
 
