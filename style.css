@@ -352,8 +352,11 @@ main {
 .about {
     margin: 50px auto ;
     max-width: 100%;
-    padding: 50px 40px;
-    background-color: #f2f2f2;
+    padding: 50px 20px;
+    background-image: url(images/woods-about.jpg);
+    background-size: cover;
+    background-position: bottom center;
+    color: white;
     display: flex;
     flex-direction: column;
 }
@@ -369,11 +372,11 @@ main {
 
 .about a {
     margin-top: 50px;
-    width: 80%;
+    width: 100%;
 }
 
 .about p {
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -829,10 +832,14 @@ footer {
         width: 100%;
         align-content: center;
         padding: 50px 100px;
+        background-image: url(images/woods-about.jpg);
+        background-size: cover;
+        background-position: bottom center;
+        color: white;
     }
 
-    .about p, .cta {
-        max-width: 500px;
+    .about p, .about .cta {
+        max-width: 400px;
     }
 
 
