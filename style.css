@@ -792,5 +792,9 @@ footer {
         width: 0;
     }
     
+    .categories {
+        flex-direction: row;
+        gap: 20px;
+    }
 }
 
