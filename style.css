@@ -45,6 +45,10 @@ a {
     color: black;
 }
 
+.fa, .fas, .fab {
+    font-size: 1.2rem;
+}
+
 strong {
     font-weight: 500;
 }
@@ -135,10 +139,6 @@ header {
     display: none;
 }
 
-.fa-bars, .fa-shopping-bag, .fa-search {
-    font-size: 1.4rem;
-}
-
 .fa-bars {
     position: absolute;
     top: 20px;
@@ -159,11 +159,11 @@ header {
  
 .bag-qty {
     position: relative;
-    bottom: 12px;
-    left: 7px;
+    bottom: 8px;
+    left: 6px;
     color: white;
     font-family: 'poppins';
-    font-size: .6rem;
+    font-size: .5rem;
 }
 
 nav {
@@ -708,6 +708,10 @@ footer {
     grid-area: 1 / 1 / 2 / 7;
 }
 
+.so-me i {
+    font-size: 2rem;
+}
+
 #copyright {
     text-align: center;
     font-size: .8rem;
@@ -727,6 +731,8 @@ footer {
     .fa-bars {
         display: none;
     }
+
+
 
 
     
