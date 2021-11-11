@@ -737,7 +737,7 @@ footer {
     }
 
     .header-container, .nav-bar, .crumbs  {
-        max-width: 1200px;
+        max-width: 1000px;
         margin: 0 auto;
     }
 
