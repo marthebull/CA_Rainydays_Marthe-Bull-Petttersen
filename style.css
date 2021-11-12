@@ -598,7 +598,7 @@ p.sale-price {
     padding: 5px 0;
 }
 
-details {
+details:focus {
     outline: none;
 }
 summary {
