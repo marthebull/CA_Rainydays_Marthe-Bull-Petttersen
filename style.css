@@ -602,6 +602,10 @@ summary {
     display: flex;
 }
 
+summary::-webkit-details-marker {
+    display: none;
+}
+
 .fa-chevron-down {
     font-size: .8rem;
 }
