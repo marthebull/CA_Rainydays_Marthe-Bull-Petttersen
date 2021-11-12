@@ -839,7 +839,13 @@ footer {
         padding: 0 10px;
     }
 
-    /* About page */
+    /* Products */
+
+    .products {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+
+    /* About page 
     .about {
         width: 100%;
         align-content: center;
@@ -854,10 +860,6 @@ footer {
         max-width: 400px;
     }
 
-    .products {
-        grid-template-columns: 1fr 1fr 1fr 1fr;
-    }
-
     .about-text  {
         display: flex;
         flex-direction: row;
@@ -867,7 +869,7 @@ footer {
 
     .about-text p {
         flex: 1;
-    }
+    } 
 
     /* Cart, checkout, summary, success*/
 
@@ -932,7 +934,7 @@ footer {
     }
 
     /* About page */
-
+    /*
     .about-page  {
         flex-direction: row;
         flex-wrap: wrap;
