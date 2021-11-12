@@ -838,14 +838,7 @@ footer {
     .categories div {
         padding: 0 10px;
     }
-
-    /* Products */
-
-    .products {
-        grid-template-columns: 1fr 1fr 1fr 1fr;
-    }
-
-    /* About page 
+ 
     .about {
         width: 100%;
         align-content: center;
@@ -860,16 +853,10 @@ footer {
         max-width: 400px;
     }
 
-    .about-text  {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        gap: 20px;
+    .products {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
     }
 
-    .about-text p {
-        flex: 1;
-    } 
 
     /* Cart, checkout, summary, success*/
 
@@ -911,7 +898,6 @@ footer {
         height: 200px;
         order: 1;
         margin: 80px 100px 0 0;
-
     }
 
     .bottom-nav {
@@ -930,36 +916,8 @@ footer {
         text-align: right;
         padding: 20px;
         font-size: 1.2rem;
-        
     }
 
-    /* About page */
-    /*
-    .about-page  {
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: space-between;
-    }
-
-    .about-page h1 {
-        flex: 100%;
-        text-align: center;
-        margin-bottom: 100px;
-    }
-    
-    .about-img {
-        max-width:500px;
-    }
-    .about-text  {
-        max-width: 400px;
-        max-height: 333px;
-        flex-direction: column;
-    }
-
-    .about-page .cta {
-        max-width: 500px;
-        margin: 0;
-    }
 
     /* Product specific page */
     
