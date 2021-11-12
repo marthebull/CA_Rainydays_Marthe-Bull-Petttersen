@@ -585,6 +585,14 @@ p.sale-price {
     padding: 5px 0;
 }
 
+summary {
+    display: flex;
+}
+
+.fa-chevron-down {
+    font-size: .8rem;
+}
+
 h2.intro {
     padding: 30px 0;
 }
@@ -857,6 +865,11 @@ footer {
         grid-template-columns: 1fr 1fr 1fr 1fr;
     }
 
+    /* Product specific page*/
+
+    .product-choices {
+        width: 100%;
+    }
 
     /* Cart, checkout, summary, success*/
 
