@@ -396,9 +396,16 @@ main {
     margin-bottom: 40px;
 }
 
-.about-page > p  {
-    margin: 10px auto;
-    line-height: 1.2rem;
+.about-text  {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.about-text > p  {
+    padding-bottom: 15px;
+    line-height: 1.4rem;
 }
 
 /* Conatct page*/
@@ -735,6 +742,8 @@ footer {
 
 @media screen and (min-width: 720px) {
 
+    /* Header */
+
     .header-home {
         width: 100%;
     }
@@ -801,9 +810,11 @@ footer {
         font-size: .6rem;
     }
 
-    .main-flex {
+    .main-flex, main {
         max-width: 1000px;
     }
+
+    /* Home page */
 
     .selling-point {
         flex-direction: row;
@@ -828,6 +839,7 @@ footer {
         padding: 0 10px;
     }
 
+    /* About page */
     .about {
         width: 100%;
         align-content: center;
@@ -842,11 +854,129 @@ footer {
         max-width: 400px;
     }
 
+    .products {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+
+    .about-text  {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 20px;
+    }
+
+    .about-text p {
+        flex: 1;
+    }
+
+    /* Cart, checkout, summary, success*/
+
+    .white-box-main {
+        max-width: 600px;
+    }
 
 }
 
 @media screen and (min-width: 1024px) {
 
+    /* Footer */
+
+    .footer-container {
+        max-width: 1000px;
+        min-width: 1000px;
+        margin: 0 auto;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+        align-content: center;
+    }
+
+    #copyright {
+        flex: 100%;
+        order: 5;
+        padding-top: 50px;
+    }
+
+    .newsletter {
+        width: 440px;
+        padding: 0 0 0 40px;
+        order: 3;
+    }
+
+    .so-me {
+        width: 300px;
+        font-size: 4rem;
+        height: 200px;
+        order: 1;
+        margin: 80px 100px 0 0;
+
+    }
+
+    .bottom-nav {
+        display: block;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        height: 320px;
+        margin: 40px 0;
+        order: 2;
+        border-right: 1px solid black;
+    }
+
+    .bottom-nav a {
+        display: block;
+        text-align: right;
+        padding: 20px;
+        font-size: 1.2rem;
+        
+    }
+
+    /* About page */
+
+    .about-page  {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .about-page h1 {
+        flex: 100%;
+        text-align: center;
+        margin-bottom: 100px;
+    }
+    
+    .about-img {
+        max-width:500px;
+    }
+    .about-text  {
+        max-width: 400px;
+        max-height: 333px;
+        flex-direction: column;
+    }
+
+    .about-page .cta {
+        max-width: 500px;
+        margin: 0;
+    }
+
+    /* Product specific page */
+    
+    .prod-spec {
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .gallery, .product-choices {
+        max-width: 450px;
+        margin: 0;
+    }
+
+    .gallery {
+    height: 440px;
+    }
+    
+    
     
 }
 
