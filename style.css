@@ -598,11 +598,9 @@ p.sale-price {
     padding: 5px 0;
 }
 
-details:focus {
-    outline: none;
-}
 summary {
     display: flex;
+    outline: none;
 }
 
 summary::-webkit-details-marker {
