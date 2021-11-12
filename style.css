@@ -51,6 +51,7 @@ a {
 
 strong {
     font-weight: 500;
+    padding-bottom: 10px;
 }
 
 .cta {
@@ -103,6 +104,18 @@ input, select, textarea {
 form label {
     display: inline-block;
     margin-bottom: 5px;
+}
+
+.agree {
+    display: flex;
+    margin-top: 30px;
+}
+
+input[type=checkbox] {
+    height: 20px;
+    margin: 0 20px 0 0;
+    padding: 0;
+    width: 20px;
 }
 
 /* Header ---------------------- */
@@ -548,7 +561,7 @@ p.sale-price {
 .size {
     display: inline-block;
     padding: 10px;
-    margin-right: 10px;
+    margin: 10px 10px 0 0;
     border: 1px solid black;
     display: flex;
     flex: 1;
@@ -685,7 +698,6 @@ hr {
 .fa-cc-mastercard {
     right: 50px;
 } 
-
 
 /* Success page */
 
@@ -870,6 +882,8 @@ footer {
     .product-choices {
         width: 100%;
     }
+
+    
 
     /* Cart, checkout, summary, success*/
 
