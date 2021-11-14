@@ -96,7 +96,7 @@ input, select, textarea {
     resize: none;
 }
 
-#quantity {
+.quantity {
     width: 100px;
     text-align: center;
     margin: 0;
