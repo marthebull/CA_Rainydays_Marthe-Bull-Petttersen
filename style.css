@@ -605,9 +605,7 @@ summary {
     outline: none;
 }
 
-summary::-webkit-details-marker {
-    display: none;
-}
+
 
 .fa-chevron-down {
     font-size: .8rem;
