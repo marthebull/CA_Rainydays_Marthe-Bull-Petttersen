@@ -54,6 +54,7 @@ strong, h2.form-header {
     font-size: .8rem;
     font-weight: 500;
     padding-bottom: 10px;
+    letter-spacing: .15rem;
 }
 
 .cta {
@@ -232,6 +233,7 @@ li.crumb a::after {
 
 .fa-chevron-left {
     padding-right: 20px;
+    font-size: .6rem;
 }
 
 /* Header home page*/
@@ -397,11 +399,6 @@ main {
 
 /* About page */
 
-/*
-.about-page h1, .about-page .cta {
-    margin: 50px auto;
-}
-*/ 
 
 .about {
     padding: 50px 50px;
@@ -416,7 +413,6 @@ main {
     flex-direction: column;
     justify-content: space-between;
 }
-
 
 .about-text > p  {
     padding-bottom: 15px;
@@ -433,7 +429,6 @@ main {
 #message {
     height: 200px;
 }
-
 
 /* Products page*/
 
@@ -514,7 +509,6 @@ p.sale-price {
     margin: 20px 0;
 }
 
-
 .color-pick {
     display: inline-block;
     border-radius: 50%;
@@ -547,7 +541,6 @@ p.sale-price {
     outline: .5px solid black;
     outline-offset: 2px;
 }
-
 
 .sizes {
     display: flex;
@@ -715,7 +708,6 @@ hr {
 .cust-sum {
     padding-bottom: 30px;
 }
-
 
 /* Footer ----------------------*/
 footer {
