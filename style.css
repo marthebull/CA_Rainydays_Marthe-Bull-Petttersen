@@ -586,10 +586,18 @@ summary {
     display: flex;
     outline: none;
 }
+
 /*Lager warning i CSS validator*/
+/*
 summary::-webkit-details-marker {
     display: none;
 }
+*/ 
+
+summary::marker { 
+    content: ""; 
+}
+
 
 .fa-chevron-down {
     font-size: .8rem;
