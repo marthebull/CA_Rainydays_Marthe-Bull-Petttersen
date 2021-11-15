@@ -304,9 +304,6 @@ main {
     margin-bottom: 20px;
 }
 
-.selling-point h2 {
-    flex: 100%;
-}
 
 .women {
     background-image: url(images/woman-yellow-hood.jpg);
@@ -355,7 +352,6 @@ main {
 }
 
 .categories img {
-    flex: 100%;
     width: 100%;
     margin-top: 10px;
 }
