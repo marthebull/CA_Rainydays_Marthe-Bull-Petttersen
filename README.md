@@ -13,3 +13,4 @@ To make a responsive webshop site with only HTML and CSS which:
 - HTML
 - CSS
 - Figma
+ 
